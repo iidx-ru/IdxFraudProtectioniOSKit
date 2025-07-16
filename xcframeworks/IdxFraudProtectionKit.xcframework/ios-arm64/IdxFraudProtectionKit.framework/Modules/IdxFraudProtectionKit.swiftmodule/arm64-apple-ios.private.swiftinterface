@@ -1,0 +1,250 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IdxFraudProtectionKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AdSupport
+import CallKit
+import CoreLocation
+import CoreTelephony
+import DevicePpi
+import Foundation
+import MapKit
+import Network
+import NetworkExtension
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PackageData {
+  public static var shared: IdxFraudProtectionKit.PackageInfo
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UserInfo : Swift.Codable {
+  public var adversiderId: Swift.String?
+  public var userId: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class OSBuildData {
+  public static var shared: IdxFraudProtectionKit.OsBuild
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Telephony : Swift.Codable {
+  public var mcc: Swift.String?
+  public var callState: Swift.Int?
+  public var callDirection: Swift.Int?
+  public var mnc: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class NetData {
+  public static var shared: IdxFraudProtectionKit.Net
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SingleDisplayInfo : Swift.Codable {
+  public var width: Swift.Int?
+  public var height: Swift.Int?
+  public var screenColorDepth: Swift.Int?
+  public var isMirrored: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class LaunchData {
+  public static var shared: IdxFraudProtectionKit.LaunchInfo
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PersonalizationInfo : Swift.Codable {
+  public var defaultLanguage: Swift.String?
+  public var timeZone: Swift.Float?
+  public var time: Swift.CLong?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class GeoLocationData {
+  public static func collect(with location: CoreLocation.CLLocation?) -> IdxFraudProtectionKit.GeoLocationInfo?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PackageInfo : Swift.Codable {
+  public var name: Swift.String?
+  public var version: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class DisplayData {
+  public static var shared: [IdxFraudProtectionKit.DisplaysInfo]
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class OsBuild : Swift.Codable {
+  public var manufacturerName: Swift.String?
+  public var modelName: Swift.String?
+  public var systemName: Swift.String?
+  public var deviceName: Swift.String?
+  public var kernelVersion: Swift.String?
+  public var hardwareId: Swift.String?
+  public var isRoot: Swift.Bool?
+  public var isEmulator: Swift.Bool?
+  public var isMultitasking: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Net : Swift.Codable {
+  public var rdp: Swift.Bool?
+  public var ipV4: Swift.String?
+  public var ipV6: Swift.String?
+  public var connectionType: Swift.String?
+  public var isVpn: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Request {
+  public static func sendDataPost(postString: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LaunchInfo : Swift.Codable {
+  public var multiWindowMode: Swift.Bool?
+  public var bootTime: Swift.CLong?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class NetworkMonitor {
+  public static let shared: IdxFraudProtectionKit.NetworkMonitor
+  public var isConnected: Swift.Bool {
+    get
+  }
+  public var connectionType: IdxFraudProtectionKit.NetworkMonitor.ConnectionType {
+    get
+  }
+  public enum ConnectionType : Swift.String {
+    case wifi
+    case cellular
+    case ethernet
+    case unknown
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func startMonitoring()
+  public func stopMonitoring()
+  @objc deinit
+}
+@objc public class IdxFPManager : ObjectiveC.NSObject {
+  public func setSessionId(sessionId: Swift.String)
+  public func clearSessionId()
+  public func getSessionId() -> Swift.String
+  public init(pixelCode: Swift.String)
+  public func DeviceRequest(location: CoreLocation.CLLocation?)
+  @objc deinit
+}
+@objc public class GeoLocationInfo : ObjectiveC.NSObject, Swift.Codable {
+  final public let latitude: Swift.Double?
+  final public let altitude: Swift.Double?
+  final public let accuracy: Swift.Double?
+  final public let timestamp: Swift.CLong?
+  final public let status: Swift.Int?
+  final public let speed: Swift.Float?
+  final public let altitudeAccurace: Swift.Double?
+  final public let floor: Swift.Int?
+  final public let heading: Swift.Double?
+  final public let longitude: Swift.Double?
+  public init(latitude: Swift.Double?, altitude: Swift.Double?, accuracy: Swift.Double?, timestamp: Swift.CLong?, status: Swift.Int?, speed: Swift.Float?, altitudeAccurace: Swift.Double?, floor: Swift.Int?, heading: Swift.Double?, longitude: Swift.Double?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class LocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public static var locationManager: CoreLocation.CLLocationManager?
+  public static var status: Swift.Int
+  public static var currentLocation: CoreLocation.CLLocation?
+  public func checkIfLocationServicesIsEnabled()
+  @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WifiData {
+  public static var shared: IdxFraudProtectionKit.WifiNetworkData
+  @objc deinit
+}
+@objc public class DisplaysInfo : ObjectiveC.NSObject, Swift.Codable {
+  final public let scale: Swift.Int?
+  final public let isCaptured: Swift.Bool?
+  final public let bounds: Swift.String?
+  final public let coordinateSpace: Swift.String?
+  final public let nativeScale: Swift.Int?
+  final public let brigtness: Swift.Double?
+  final public let fixedCoordinateSpace: Swift.String?
+  final public let nativeBounds: Swift.String?
+  public init(scale: Swift.Int?, isCaptured: Swift.Bool?, bounds: Swift.String?, coordinateSpace: Swift.String?, nativeScale: Swift.Int?, brigtness: Swift.Double?, fixedCoordinateSpace: Swift.String?, nativeBounds: Swift.String?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class JsonConverter {
+  public static func convert(data: IdxFraudProtectionKit.DataCollection) -> Foundation.Data?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UserData {
+  public static var shared: IdxFraudProtectionKit.UserInfo
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class DataCollection : ObjectiveC.NSObject, Swift.Codable {
+  public var fingerprintId: Swift.String?
+  public var fingerprintSequence: Swift.Int?
+  public var fingerprintTimestamp: Swift.CLong?
+  public var dsVer: Swift.String?
+  public var pixelVersion: Swift.String?
+  public var sessionId: Swift.String?
+  public var pixelCode: Swift.String?
+  public var wifi: IdxFraudProtectionKit.WifiNetworkData?
+  public var telephony: IdxFraudProtectionKit.Telephony?
+  public var personalizationInfo: IdxFraudProtectionKit.PersonalizationInfo?
+  public var packageInfo: IdxFraudProtectionKit.PackageInfo?
+  public var osBuild: IdxFraudProtectionKit.OsBuild?
+  public var launchInfo: IdxFraudProtectionKit.LaunchInfo?
+  public var net: IdxFraudProtectionKit.Net?
+  public var displayInfo: IdxFraudProtectionKit.SingleDisplayInfo?
+  public var displays: [IdxFraudProtectionKit.DisplaysInfo?]
+  public var locations: [IdxFraudProtectionKit.GeoLocationInfo?]
+  public var adversiderId: Swift.String?
+  public var userId: Swift.String?
+  public var hostTimezone: Swift.Float?
+  public var hostTimestamp: Swift.CLong?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class IpData {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TelephonyData {
+  public static var shared: IdxFraudProtectionKit.Telephony
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SingleDisplayData {
+  public static var shared: IdxFraudProtectionKit.SingleDisplayInfo
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PersonalizationData {
+  public static var shared: IdxFraudProtectionKit.PersonalizationInfo
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WifiNetworkData : Swift.Codable {
+  final public let bssid: Swift.String?
+  final public let ssid: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension IdxFraudProtectionKit.NetworkMonitor.ConnectionType : Swift.Equatable {}
+extension IdxFraudProtectionKit.NetworkMonitor.ConnectionType : Swift.Hashable {}
+extension IdxFraudProtectionKit.NetworkMonitor.ConnectionType : Swift.RawRepresentable {}
