@@ -9,2016 +9,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PackageData",
-        "printedName": "PackageData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PackageInfo",
-                "printedName": "IdxFraudProtectionKit.PackageInfo",
-                "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvpZ",
-            "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvpZ",
-            "moduleName": "IdxFraudProtectionKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PackageInfo",
-                    "printedName": "IdxFraudProtectionKit.PackageInfo",
-                    "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvgZ",
-                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvgZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PackageInfo",
-                    "printedName": "IdxFraudProtectionKit.PackageInfo",
-                    "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvsZ",
-                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvsZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvMZ",
-                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvMZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit11PackageDataC",
-        "mangledName": "$s21IdxFraudProtectionKit11PackageDataC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UserInfo",
-        "printedName": "UserInfo",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "adversiderId",
-            "printedName": "adversiderId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "userId",
-            "printedName": "userId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UserInfo",
-                "printedName": "IdxFraudProtectionKit.UserInfo",
-                "usr": "s:21IdxFraudProtectionKit8UserInfoC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:21IdxFraudProtectionKit8UserInfoC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21IdxFraudProtectionKit8UserInfoC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6encode2toys7Encoder_p_tKF",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit8UserInfoC",
-        "mangledName": "$s21IdxFraudProtectionKit8UserInfoC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OSBuildData",
-        "printedName": "OSBuildData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OsBuild",
-                "printedName": "IdxFraudProtectionKit.OsBuild",
-                "usr": "s:21IdxFraudProtectionKit7OsBuildC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvpZ",
-            "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvpZ",
-            "moduleName": "IdxFraudProtectionKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OsBuild",
-                    "printedName": "IdxFraudProtectionKit.OsBuild",
-                    "usr": "s:21IdxFraudProtectionKit7OsBuildC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvgZ",
-                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvgZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OsBuild",
-                    "printedName": "IdxFraudProtectionKit.OsBuild",
-                    "usr": "s:21IdxFraudProtectionKit7OsBuildC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvsZ",
-                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvsZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvMZ",
-                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvMZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit11OSBuildDataC",
-        "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Telephony",
-        "printedName": "Telephony",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "mcc",
-            "printedName": "mcc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "callState",
-            "printedName": "callState",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "callDirection",
-            "printedName": "callDirection",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "mnc",
-            "printedName": "mnc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Telephony",
-                "printedName": "IdxFraudProtectionKit.Telephony",
-                "usr": "s:21IdxFraudProtectionKit9TelephonyC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21IdxFraudProtectionKit9TelephonyC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC6encode2toys7Encoder_p_tKF",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit9TelephonyC",
-        "mangledName": "$s21IdxFraudProtectionKit9TelephonyC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetData",
-        "printedName": "NetData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Net",
-                "printedName": "IdxFraudProtectionKit.Net",
-                "usr": "s:21IdxFraudProtectionKit3NetC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvpZ",
-            "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvpZ",
-            "moduleName": "IdxFraudProtectionKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Net",
-                    "printedName": "IdxFraudProtectionKit.Net",
-                    "usr": "s:21IdxFraudProtectionKit3NetC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvgZ",
-                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvgZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Net",
-                    "printedName": "IdxFraudProtectionKit.Net",
-                    "usr": "s:21IdxFraudProtectionKit3NetC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvsZ",
-                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvsZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvMZ",
-                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvMZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit7NetDataC",
-        "mangledName": "$s21IdxFraudProtectionKit7NetDataC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SingleDisplayInfo",
-        "printedName": "SingleDisplayInfo",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "width",
-            "printedName": "width",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "height",
-            "printedName": "height",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "screenColorDepth",
-            "printedName": "screenColorDepth",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isMirrored",
-            "printedName": "isMirrored",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvp",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvp",
-            "moduleName": "IdxFraudProtectionKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvg",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvg",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvs",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvs",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvM",
-                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvM",
-                "moduleName": "IdxFraudProtectionKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SingleDisplayInfo",
-                "printedName": "IdxFraudProtectionKit.SingleDisplayInfo",
-                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6encode2toys7Encoder_p_tKF",
-            "moduleName": "IdxFraudProtectionKit",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC",
-        "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IdxFraudProtectionKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LaunchData",
-        "printedName": "LaunchData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LaunchInfo",
-                "printedName": "IdxFraudProtectionKit.LaunchInfo",
-                "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvpZ",
-            "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvpZ",
-            "moduleName": "IdxFraudProtectionKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LaunchInfo",
-                    "printedName": "IdxFraudProtectionKit.LaunchInfo",
-                    "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvgZ",
-                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvgZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LaunchInfo",
-                    "printedName": "IdxFraudProtectionKit.LaunchInfo",
-                    "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvsZ",
-                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvsZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvMZ",
-                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvMZ",
-                "moduleName": "IdxFraudProtectionKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21IdxFraudProtectionKit10LaunchDataC",
-        "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC",
-        "moduleName": "IdxFraudProtectionKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "IdxFraudProtectionKit"
       },
       {
@@ -11953,6 +9943,2016 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PackageData",
+        "printedName": "PackageData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PackageInfo",
+                "printedName": "IdxFraudProtectionKit.PackageInfo",
+                "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvpZ",
+            "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvpZ",
+            "moduleName": "IdxFraudProtectionKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PackageInfo",
+                    "printedName": "IdxFraudProtectionKit.PackageInfo",
+                    "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvgZ",
+                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvgZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PackageInfo",
+                    "printedName": "IdxFraudProtectionKit.PackageInfo",
+                    "usr": "s:21IdxFraudProtectionKit11PackageInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvsZ",
+                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvsZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvMZ",
+                "mangledName": "$s21IdxFraudProtectionKit11PackageDataC6sharedAA0E4InfoCvMZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit11PackageDataC",
+        "mangledName": "$s21IdxFraudProtectionKit11PackageDataC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserInfo",
+        "printedName": "UserInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adversiderId",
+            "printedName": "adversiderId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC12adversiderIdSSSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC6userIdSSSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6userIdSSSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserInfo",
+                "printedName": "IdxFraudProtectionKit.UserInfo",
+                "usr": "s:21IdxFraudProtectionKit8UserInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21IdxFraudProtectionKit8UserInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21IdxFraudProtectionKit8UserInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21IdxFraudProtectionKit8UserInfoC6encode2toys7Encoder_p_tKF",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit8UserInfoC",
+        "mangledName": "$s21IdxFraudProtectionKit8UserInfoC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSBuildData",
+        "printedName": "OSBuildData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OsBuild",
+                "printedName": "IdxFraudProtectionKit.OsBuild",
+                "usr": "s:21IdxFraudProtectionKit7OsBuildC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvpZ",
+            "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvpZ",
+            "moduleName": "IdxFraudProtectionKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OsBuild",
+                    "printedName": "IdxFraudProtectionKit.OsBuild",
+                    "usr": "s:21IdxFraudProtectionKit7OsBuildC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvgZ",
+                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvgZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OsBuild",
+                    "printedName": "IdxFraudProtectionKit.OsBuild",
+                    "usr": "s:21IdxFraudProtectionKit7OsBuildC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvsZ",
+                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvsZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvMZ",
+                "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC6sharedAA7OsBuildCvMZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit11OSBuildDataC",
+        "mangledName": "$s21IdxFraudProtectionKit11OSBuildDataC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Telephony",
+        "printedName": "Telephony",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mcc",
+            "printedName": "mcc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mccSSSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mccSSSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callState",
+            "printedName": "callState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC9callStateSiSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC9callStateSiSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callDirection",
+            "printedName": "callDirection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC13callDirectionSiSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mnc",
+            "printedName": "mnc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC3mncSSSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit9TelephonyC3mncSSSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Telephony",
+                "printedName": "IdxFraudProtectionKit.Telephony",
+                "usr": "s:21IdxFraudProtectionKit9TelephonyC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21IdxFraudProtectionKit9TelephonyC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21IdxFraudProtectionKit9TelephonyC6encode2toys7Encoder_p_tKF",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit9TelephonyC",
+        "mangledName": "$s21IdxFraudProtectionKit9TelephonyC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetData",
+        "printedName": "NetData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Net",
+                "printedName": "IdxFraudProtectionKit.Net",
+                "usr": "s:21IdxFraudProtectionKit3NetC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvpZ",
+            "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvpZ",
+            "moduleName": "IdxFraudProtectionKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Net",
+                    "printedName": "IdxFraudProtectionKit.Net",
+                    "usr": "s:21IdxFraudProtectionKit3NetC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvgZ",
+                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvgZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Net",
+                    "printedName": "IdxFraudProtectionKit.Net",
+                    "usr": "s:21IdxFraudProtectionKit3NetC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvsZ",
+                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvsZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvMZ",
+                "mangledName": "$s21IdxFraudProtectionKit7NetDataC6sharedAA0E0CvMZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit7NetDataC",
+        "mangledName": "$s21IdxFraudProtectionKit7NetDataC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SingleDisplayInfo",
+        "printedName": "SingleDisplayInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC5widthSiSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6heightSiSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenColorDepth",
+            "printedName": "screenColorDepth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC16screenColorDepthSiSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMirrored",
+            "printedName": "isMirrored",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvp",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvp",
+            "moduleName": "IdxFraudProtectionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvg",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvg",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvs",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvs",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvM",
+                "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC10isMirroredSbSgvM",
+                "moduleName": "IdxFraudProtectionKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SingleDisplayInfo",
+                "printedName": "IdxFraudProtectionKit.SingleDisplayInfo",
+                "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC6encode2toys7Encoder_p_tKF",
+            "moduleName": "IdxFraudProtectionKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit17SingleDisplayInfoC",
+        "mangledName": "$s21IdxFraudProtectionKit17SingleDisplayInfoC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IdxFraudProtectionKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LaunchData",
+        "printedName": "LaunchData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LaunchInfo",
+                "printedName": "IdxFraudProtectionKit.LaunchInfo",
+                "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvpZ",
+            "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvpZ",
+            "moduleName": "IdxFraudProtectionKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LaunchInfo",
+                    "printedName": "IdxFraudProtectionKit.LaunchInfo",
+                    "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvgZ",
+                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvgZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LaunchInfo",
+                    "printedName": "IdxFraudProtectionKit.LaunchInfo",
+                    "usr": "s:21IdxFraudProtectionKit10LaunchInfoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvsZ",
+                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvsZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvMZ",
+                "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC6sharedAA0E4InfoCvMZ",
+                "moduleName": "IdxFraudProtectionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21IdxFraudProtectionKit10LaunchDataC",
+        "mangledName": "$s21IdxFraudProtectionKit10LaunchDataC",
+        "moduleName": "IdxFraudProtectionKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }

@@ -16,47 +16,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class PackageData {
-  public static var shared: IdxFraudProtectionKit.PackageInfo
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class UserInfo : Swift.Codable {
-  public var adversiderId: Swift.String?
-  public var userId: Swift.String?
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class OSBuildData {
-  public static var shared: IdxFraudProtectionKit.OsBuild
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Telephony : Swift.Codable {
-  public var mcc: Swift.String?
-  public var callState: Swift.Int?
-  public var callDirection: Swift.Int?
-  public var mnc: Swift.String?
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class NetData {
-  public static var shared: IdxFraudProtectionKit.Net
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class SingleDisplayInfo : Swift.Codable {
-  public var width: Swift.Int?
-  public var height: Swift.Int?
-  public var screenColorDepth: Swift.Int?
-  public var isMirrored: Swift.Bool?
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class LaunchData {
-  public static var shared: IdxFraudProtectionKit.LaunchInfo
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers public class PersonalizationInfo : Swift.Codable {
   public var defaultLanguage: Swift.String?
   public var timeZone: Swift.Float?
@@ -244,6 +203,47 @@ import _SwiftConcurrencyShims
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class PackageData {
+  public static var shared: IdxFraudProtectionKit.PackageInfo
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UserInfo : Swift.Codable {
+  public var adversiderId: Swift.String?
+  public var userId: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class OSBuildData {
+  public static var shared: IdxFraudProtectionKit.OsBuild
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Telephony : Swift.Codable {
+  public var mcc: Swift.String?
+  public var callState: Swift.Int?
+  public var callDirection: Swift.Int?
+  public var mnc: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class NetData {
+  public static var shared: IdxFraudProtectionKit.Net
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SingleDisplayInfo : Swift.Codable {
+  public var width: Swift.Int?
+  public var height: Swift.Int?
+  public var screenColorDepth: Swift.Int?
+  public var isMirrored: Swift.Bool?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class LaunchData {
+  public static var shared: IdxFraudProtectionKit.LaunchInfo
+  @objc deinit
 }
 extension IdxFraudProtectionKit.NetworkMonitor.ConnectionType : Swift.Equatable {}
 extension IdxFraudProtectionKit.NetworkMonitor.ConnectionType : Swift.Hashable {}
