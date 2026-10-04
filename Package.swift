@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "IdxFraudProtectioniOSKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
