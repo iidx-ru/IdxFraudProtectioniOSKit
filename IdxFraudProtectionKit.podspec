@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name          = 'IdxFraudProtectionKit'
-    spec.version       = '1.0.17'
+    spec.version       = '1.0.18'
     spec.summary       = 'IDX Fraud Protection Kit for iOS'
     spec.description   = 'IDX Fraud Protection Kit for iOS'
     spec.homepage      = 'https://iidx.ru'
